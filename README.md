@@ -3,7 +3,7 @@
 This project focuses on developing a Question Answering (QA) model that integrates both parametric knowledge (inherent in model weights) and contextual knowledge (external information) to generate informative answers. It introduces a solution called "post-hoc knowledge injection" to enhance answer quality by leveraging external sources.
 # Dataset
 A subset of the Natural Questions (NQ) dataset is utilized for this project. The dataset preprocessing and creation details can be found in the provided notebooks.
-Dataset Link: Natural Questions Dataset
+Dataset Link: https://ai.google.com/research/NaturalQuestions/download
 # Methodology
 # Parametric Answer Generation
 Utilizing RoBERTa model from the simpletransformers library, parametric answers are generated after thorough preprocessing of the NQ dataset. Training and testing details are outlined in the respective notebook.
